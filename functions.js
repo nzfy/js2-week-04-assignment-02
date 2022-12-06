@@ -6,9 +6,9 @@ const isTheWordSplit = (wordSplit) => {
               for (let j = 0; j < item.length; j++) {
                 if (item[i] + item[j] == newWord) {
                   return item[i] + "," + item[j];
-      }
-    }
-  }
+      };
+    };
+  };
   return "not possible";
 };
 
